@@ -46,7 +46,6 @@ public class SPTCustomPlugin : BaseUnityPlugin
             new FixBossesHavingNoFollowersOnMediumAiAmount().Enable();
             new FixAirdropCrashPatch().Enable();
             new FixAirdropFlareDisposePatch().Enable();
-            new MemoryCollectionPatch().Enable();
             new LocaleManagerRaceConditionFixPatch().Enable();
             new AddOfferFilterHangPatch().Enable();
             new FixPrecipitationAmbientBlenderNullRefPatch().Enable();
